@@ -23,7 +23,7 @@
                 
                 <label class="fw-bold" for="">Recipe Photo :</label>
                 <p class="mb-3">
-                    <img src="{{asset('img/recipe')}}/{{$recipe->image}}" alt="" srcset="">
+                    <img class="w-100" src="{{asset('img/recipe')}}/{{$recipe->image}}" alt="" srcset="">
                 </p>
                 
                 <label class="fw-bold" for="">Recipe Photo Details:</label>

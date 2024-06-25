@@ -32,7 +32,7 @@
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="{{ url('user-edit') }}/{{$item->id}}"><i class="ti ti-pencil me-1"></i> Edit</a>
                                         
-                                        @if (auth()->user()->id != $item->id)
+                                        @if (auth()->user()->id != $item->id && $item->role_id != 1)
                                             <form action="{{ url('user') }}/{{ $item->id}}" method="post" style="display: contents;">
                                                 @csrf
                                                 @method('DELETE')

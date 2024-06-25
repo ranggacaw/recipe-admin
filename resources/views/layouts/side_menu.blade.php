@@ -137,12 +137,12 @@
         </li>
 
         <!-- About -->
-        <li class="menu-item {{ (request()->is('about')) ? 'active' : '' }}">  
+        {{-- <li class="menu-item {{ (request()->is('about')) ? 'active' : '' }}">  
             <a href="{{ url('about') }}" class="menu-link">
                 <i class="menu-icon tf-icons ti ti-color-swatch"></i>
                 <div>About</div>
             </a>
-        </li>
+        </li> --}}
 
         <!-- Misc -->
         <li class="menu-header small text-uppercase">

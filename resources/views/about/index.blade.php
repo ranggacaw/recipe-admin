@@ -11,19 +11,19 @@
                     <div class="card-body">
                         <div class="mb-3">
                             <label for="" class="form-label">Title</label>
-                            <input type="text" class="form-control" name="title" value="{{ $abouts->title }}" disabled />
+                            {{-- <input type="text" class="form-control" name="title" value="{{ $abouts->title }}" disabled /> --}}
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label">Content</label>
-                            <textarea class="form-control" name="content" rows="4"disabled>{{ $abouts->content }}</textarea>
+                            {{-- <textarea class="form-control" name="content" rows="4"disabled>{{ $abouts->content }}</textarea> --}}
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label">Service Title</label>
-                            <input type="text" class="form-control" name="service_title" value="{{ $abouts->service_title }}" disabled />
+                            {{-- <input type="text" class="form-control" name="service_title" value="{{ $abouts->service_title }}" disabled /> --}}
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label">Service Content</label>
-                            <textarea class="form-control" name="service_content" rows="4" disabled>{{ $abouts->service_content }}</textarea>
+                            {{-- <textarea class="form-control" name="service_content" rows="4" disabled>{{ $abouts->service_content }}</textarea> --}}
                         </div>
                         {{-- <div class="mb-3">
                             <label for="" class="form-label">Brands</label>

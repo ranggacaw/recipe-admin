@@ -84,7 +84,7 @@
     <!--/ Revenue Generated -->
 
     <!-- Earning Reports -->
-    <div class="col-lg-6 mb-4">
+    {{-- <div class="col-lg-6 mb-4">
         <div class="card h-100">
             <div class="card-header pb-0 d-flex justify-content-between mb-lg-n4">
             <div class="card-title mb-0">
@@ -179,11 +179,11 @@
             </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--/ Earning Reports -->
 
     <!-- Support Tracker -->
-    <div class="col-md-6 mb-4">
+    {{-- <div class="col-md-6 mb-4">
         <div class="card h-100">
             <div class="card-header d-flex justify-content-between pb-0">
                 <div class="card-title mb-0">
@@ -239,7 +239,7 @@
             </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--/ Support Tracker -->
     
 </div>
