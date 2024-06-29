@@ -9,7 +9,7 @@
                 <label class="fw-bold" for="">Recipe Name :</label>
                 <p class="mb-3">{{$recipe->name}}</p>
 
-                <label class="fw-bold" for="">Ingridient :</label>
+                <label class="fw-bold" for="">Ingredient :</label>
                 <p class="mb-3 px-3 ">{!!$ingredients!!}</p>
 
                 <label class="fw-bold" for="">Category :</label>
