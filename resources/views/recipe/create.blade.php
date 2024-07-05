@@ -4,48 +4,56 @@
     <form action="{{ url('recipe-create-store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="card">
-            <h5 class="card-header">Create New Recipe</h5>
+            <h5 class="card-header">Buat Resep Baru</h5>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <form action="{{ url('recipe-create-store') }}" method="post">
                         @csrf
                             <div class="mb-3">
-                                <label class="form-label">Recipe Name</label>
+                                <label class="form-label">Nama Resep</label>
                                 <input type="text" class="form-control" name="name" placeholder="Hazelnut Latte Ice">
                             </div>
                             <div class="mb-3">
-                                <label for="photoFile" class="form-label">Food / Beverages Photo</label>
+                                <label for="photoFile" class="form-label">Foto Makanan/Minuman</label>
                                 <input class="form-control" name="image" type="file" id="photoFile">
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Recipe Ingredients</label>
+                                <label class="form-label">Bahan - Bahan</label>
                                 <input type="text" class="form-control" name="ingredient" placeholder="30gr Espresso, 85gr Fresh Milk, 20gr Hazelnut Syrup">
                             </div>
                             <div class="mb-3">
-                                <label for="formFile" class="form-label">Detail Food / Beverages Photo</label>
-                                <small class="text-light fw-medium">(Landscape photo is better)</small>
+                                <label for="formFile" class="form-label">Detail Foto Makanan/Minuman</label>
+                                <small class="text-light fw-medium">(Landscape foto lebih disarankan)</small>
                                 <input class="form-control" name="imageDetail" type="file" id="formFile">
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Categories</label>
+                                <label class="form-label">Kategori</label>
                                 <div class="col-md">
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="category" id="1" value="1">
-                                        <label class="form-check-label" for="1">Hot Food/Beverage</label>
+                                        <label class="form-check-label" for="1">Minuman Panas</label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="category" id="2" value="2">
-                                        <label class="form-check-label" for="2">Ice Food/Beverage</label>
+                                        <label class="form-check-label" for="2">Minuman Dingin</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="category" id="3" value="3">
+                                        <label class="form-check-label" for="3">Makanan</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="category" id="4" value="4">
+                                        <label class="form-check-label" for="4">Kue</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="mb-5">
-                                <label class="form-label">Preparation /  Steps How to Make</label>
+                                <label class="form-label">Persiapan /  Cara Membuat</label>
                                 <textarea id="summernote" name="content" required></textarea>
                             </div>
                             <div class="">
-                                <button type="submit" class="btn btn-label-success waves-effect">Create</button>
+                                <button type="submit" class="btn btn-label-success waves-effect">Simpan</button>
                             </div>
                         </form>
                     </div>
